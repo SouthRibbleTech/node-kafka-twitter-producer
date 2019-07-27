@@ -1,0 +1,17 @@
+{
+  "name": "twitter_injest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "kafkajs": "^1.9.3",
+    "twitter": "^1.7.1"
+  }
+}
