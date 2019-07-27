@@ -23,6 +23,7 @@ client.stream('statuses/filter', {track: search_term}, async (tweet_stream)=>{
   await producer.connect()
   tweet_stream.on('data', async (tweet)=>{
     //Do something with the tweet
+    
     await producer.send({
       topic: 'tweets',
       messages: [
